@@ -1,0 +1,232 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+       <meta charset="utf-8">
+        <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <title>Конференция по JS</title>
+        <link rel="stylesheet" href = "style.css">
+    </head>
+<body>
+  <div class="navbar-fixed">  
+  <nav>
+  <div class="nav-wrapper amber lighten-2">
+    <a href="#main" class="brand-logo" ><img  src="img/jslogo.png"></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a class="flow-text black-text" href="#doc">Докладчики</a></li>
+      <li><a class="flow-text black-text" href="#prog">Программа</a></li>
+        <li><a class="flow-text black-text" href="#part">Партнеры</a></li>
+        <li><a class="flow-text black-text" href="#place">Место</a></li>
+        <li><a class="flow-text black-text modal-trigger" href="#comments">Комментарии</a></li>
+    </ul>
+  </div>
+</nav>
+    </div>
+    <img id="main" src="img/header_bg1.png" class="responsive-img scrollspy">
+      
+    <div class="row">
+        
+        <div id="doc" class="col s12 scrollspy"><h4 class=" center-align">Докладчики</h4></div>
+
+            <div class="col l4 m6 s12">
+                <div class="row valign-rapper">
+                    <div class="col l4 m4 s3">
+                        <img src="img/bg.jpg" alt="" class="circle responsive-img">
+                    </div>
+                   <div class="col l8 m8 s9">
+                       <p class="flow-text right-align">Bill Gates</p>
+                       Случайный человек, попавший на конференцию. Известен тем, что не известен ничем. Отличный программист на языках программирования. Выступит с докладом, тему которого он до сих пор не объявил. 
+                    </div>
+                </div>
+        </div>
+        
+    <div class="col l4 m6 s12">
+                <div class="row valign-rapper">
+                    <div class="col l4 m4 s3">
+                        <img src="img/sj.jpg" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col l8 m8 s9">
+                       <p class="flow-text right-align">Steve Jobs</p>
+                       В отличии от предыдущего докладчика, Стив был приглашен в качестве человека, которого мы пригласили в качестве. Его компания Apple сделала ноутбук, на котором был написан этот сайт, поэтому он точно что-то знает в программировании.
+                    </div>
+                </div>
+        </div>
+        
+    <div class="col l4 m6 s12">
+                <div class="row valign-rapper">
+                    <div class="col l4 m4 s3">
+                        <img src="img/pd.jpg" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col l8 m8 s9">
+                        <p class="flow-text right-align">Pavel Durov</p>
+                      Стал участником конференции, так как его пригласили. Созатель известной социальной сети, которую он потом потерял. Также является создателем месседжера - Telegram. Выступит с докладами по следующим темам: "как убрать стену и не возвращать" и "при мне было лучше".
+                    </div>
+                </div>
+        </div>
+    
+      <div class="col l6 m6 s12">
+                <div class="row valign-rapper">
+                    <div class="col l4 m4 s3">
+                        <img src="img/lt.jpg" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col l8 m8 s9">
+                       <p class="flow-text right-align">Linus Torvalds</p>
+                       Любитель неприличных жестов, создатель ядра linux (а также UNIX-подобных систем), человек. Был приглашен, т.к. знает что-то по программированию (а ещё потому, что мне надо заполнить пустые места на сайте). Расскажет о том, какое отношение имеет JS к Linux.
+                    </div>
+                </div>
+        </div>
+        
+    <div class="col l6 m6 s12">
+                <div class="row valign-rapper">
+                    <div class="col l4 m4 s3">
+                        <img src="img/be.jpg" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col l8 m8 s9">
+                       <p class="flow-text right-align">Brendan Eich</p>
+                        Брендана пустили на конференцию из жалости, так как думали, что он сумасшедший: утверждал, что знает JavaScript полностью (и что вообще создал его). Конечно никто в это не поверил, но полушать забавно. 
+                    </div>
+                </div>
+        </div>
+        
+        
+    </div>
+        
+         <div id = "prog" class="col s12 scrollspy"><h4 class="center-align">Программа</h4></div>
+      <!--  
+          <div class="col s12">
+           <div class="card-panel grey lighten-5 z-depth-2">
+           <div class="row right-valign">
+             <div class="col s2">
+              <img src="img/sf.jpeg" alt="" class="circle responsive-img"> <!-- notice the "circle" class 
+             </div>
+            <div class="col s10">
+              <span class="black-text">
+                This is a square image. Add the "circle" class to it to make it appear circular.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+        -->
+    <div class="row right-valign">
+        <div class="col s12">
+      <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">cached</i>AJAX</div>
+      <div class="collapsible-body"><p>JavaScript используется в AJAX, популярном подходе к построению интерактивных пользовательских интерфейсов веб-приложений, заключающемся в «фоновом» асинхронном обмене данными браузера с веб-сервером. В результате, при обновлении данных веб-страница не перезагружается полностью и интерфейс веб-приложения становится быстрее, чем это происходит при традиционном подходе (без применения AJAX).</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">dns</i>Comet</div>
+      <div class="collapsible-body"><p>Comet — широкое понятие, описывающее механизм работы веб-приложений, использующих постоянные HTTP-соединения, что позволяет веб-серверу отправлять данные браузеру без дополнительного запроса со стороны браузера. Для таких приложений используются технологии, непосредственно поддерживаемые браузерами. В частности, в них широко используется JavaScript.</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Браузерные операционные системы</div>
+      <div class="collapsible-body"><p>JavaScript широко используется в браузерных операционных системах. Так, например, исходный код IndraDesktop WebOS на 75 % состоит из JavaScript, код браузерной операционной системы IntOS — на 70 %. Доля JavaScript в исходном коде eyeOS — 5 %, однако и в рамках этой операционной системы JavaScript играет важную роль, участвуя в визуализации на клиенте и являясь необходимым механизмом для коммуницирования клиента и сервера.</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">router</i>Серверные приложения</div>
+      <div class="collapsible-body"><p>Приложения, написанные на JavaScript, могут исполняться на серверах, использующих Java 6 и более поздних версий[59]. Это обстоятельство используется для построения серверных приложений, позволяющих обрабатывать JavaScript на стороне сервера.
+
+Помимо Java 6, существует ряд платформ, использующих существующие движки (интерпретаторы) JavaScript для исполнения серверных приложений. (Как правило, речь идёт о повторном использовании движков, ранее созданных для исполнения кода JavaScript в браузерах WWW.)</p></div>
+    </li>
+  </ul>
+        </div>
+    </div>   
+   
+        
+        
+        <div id="part" class="col s12 scrollspy"><h4 class=" center-align">Партнеры</h4></div>
+        
+        <div class="row">
+          <div class="col l3 m3 s2">
+              <img id="main" src="img/mlg.jpeg" class="circle responsive-img">
+       </div>
+        <div class="col l3 m3 s2">
+              <img id="main" src="img/mlg.jpeg" class="circle responsive-img">
+       </div>
+         <div class="col l3 m3 s2">
+              <img id="main" src="img/mlg.jpeg" class="circle responsive-img">
+       </div>
+         <div class="col l3 m3 s2">
+              <img id="main" src="img/mlg.jpeg" class="circle responsive-img">
+       </div>
+        </div> 
+    
+        <div id="place" class="col s12 scrollspy"><h4 class=" center-align">Место</h4></div>
+              <div class="row">
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/map.png">
+              <span class="card-title">Москва, Красная Площадь, Кремль</span>
+            </div>
+            <div class="card-action">
+              <a href="https://www.google.ru/maps/place/Московский+Кремль/">Ссылка на карту</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+      
+      <footer class="page-footer amber lighten-2">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="black-text">Дата, место и время проведения конференции</h5>
+                   <p class="black-text">Дата: 04.04.1996</p>
+                   <p class="black-text">Место: г. Москва, Красная Площадь, Кремль</p>
+                   <p class="black-text">Время: 18:00</p>
+              </div>
+              <!-- <div class="col l4 offset-l2 s12 ">
+                <span class="black-text"><h5>Ссылки</h5></span>
+                <ul>
+                  <li><a class="black-text" href="#!">Ссылка в никуда №1</a></li>
+                  <li><a class="black-text" href="#!">Ссылка в никуда №2</a></li>
+                  <li><a class="black-text" href="#!">Ссылка в никуда №3</a></li>
+                  <li><a class="black-text" href="#!">Ссылка в никуда №4</a></li>
+                </ul>
+              </div> -->
+            </div>
+          </div>
+          <div class="col s12">
+          
+   <div id="comments" class="modal bottom-sheet">
+    <div class="modal-content">
+      <div class="row">
+           <div class="input-field col s6">
+        <input id="first_name2" type="text" class="validate">
+        <label class="active" for="first_name2">Введите ваше имя.</label>
+       </div>
+        <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Textarea</label>
+          </div>
+        
+        </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+              
+              
+              
+              
+          </div>
+          <div class="footer-copyright ">
+            <div class="container">
+            © 2016 Все права защищены (или нет). Копировать сайт нельзя (но если очень хочется - можно).
+            </div>
+          </div>
+        </footer>
+    
+    
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+   
+      </body>
+  </html>
